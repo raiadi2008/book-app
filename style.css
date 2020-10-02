@@ -145,10 +145,6 @@ label:not(:first-child) {
   overflow: hidden;
 }
 
-.books thead {
-  width: 100%;
-}
-
 .books thead tr {
   background-color: #0b8585;
   color: #fff;
