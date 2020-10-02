@@ -204,3 +204,84 @@ label:not(:first-child) {
 .negative-alert {
   background-color: rgb(226, 79, 79);
 }
+
+@media only screen and (max-width: 1000px) {
+  .container-result {
+    padding-left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    width: 70%;
+  }
+  .container-result {
+    padding-left: 7rem;
+  }
+  
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    padding: 0rem;
+    width: 80%;
+  }
+  .container-result {
+    padding-left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .container-result {
+    padding-left: 4.4rem;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  .container {
+    padding: 0rem;
+    width: 90%;
+  }
+  .container-result {
+    padding-left: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 0rem;
+    width: 90%;
+  }
+  .container-result {
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    padding: 0rem;
+    width: 90%;
+  }
+  .container-result {
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 0rem;
+    width: 100%;
+  }
+  .container-result {
+    padding-left: .5rem;
+  }
+}
