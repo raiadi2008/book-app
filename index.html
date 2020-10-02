@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My book list</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="container">
+        <div class="container-heading u-margin-bottom-medium">
+          <div class="heading u-margin-top-medium">
+            <img class="logo" src="img/book-icon.png" alt="logo for the app" />
+            <p class="title">My<span class="color-primary">Book</span>App</p>
+          </div>
+        </div>
+        <div class="container-form">
+          <form id="book-info" class="form">
+            <label for="book-name" class="lables">Title</label>
+            <input
+              type="text"
+              id="book-name"
+              name="book-name"
+              class="inputs"
+              placeholder="Book Title"
+            />
+            <label for="book-author" class="lables">Author</label>
+            <input
+              type="text"
+              id="book-author"
+              name="book-author"
+              class="inputs"
+              placeholder="Author"
+            />
+            <label for="book-isbn" class="lables">ISBN#</label>
+            <input
+              type="number"
+              id="book-isbn"
+              name="book-isbn"
+              class="inputs"
+              placeholder="ISBN"
+            />
+            <button type="submit" value="add book" class="button" id="btn">
+              Add book
+            </button>
+          </form>
+        </div>
+
+        <div class="container-result">
+          <table class="books">
+            <thead>
+              <tr>
+                <td>Book Title</td>
+                <td>Author</td>
+                <td>ISBN#</td>
+                <td>Delete Book</td>
+              </tr>
+            </thead>
+            <tbody id="book-list">
+              <!-- 
+
+                FOR TESTING
+
+                <tr>
+                <td>foreseen</td>
+                <td>joe doe</td>
+                <td>3241341212</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>foreseen</td>
+                <td>joe doe</td>
+                <td>3241341212</td>
+                <td></td>
+              </tr>
+             -->
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
