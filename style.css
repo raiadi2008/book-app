@@ -202,12 +202,20 @@ label:not(:first-child) {
 }
 
 @media only screen and (max-width: 1000px) {
+  .alert {
+    margin-left: 30rem;
+    margin-right: 30rem;
+  }
   .container-result {
     padding-left: 9rem;
   }
 }
 
 @media only screen and (max-width: 850px) {
+  .alert {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
   .container {
     width: 70%;
   }
@@ -218,6 +226,11 @@ label:not(:first-child) {
 }
 
 @media only screen and (max-width: 750px) {
+
+  .alert {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
   .container {
     padding: 0rem;
     width: 80%;
@@ -228,7 +241,10 @@ label:not(:first-child) {
 }
 
 @media only screen and (max-width: 650px) {
-
+  .alert {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
   .container-result {
     padding-left: 4.4rem;
   }
@@ -236,6 +252,10 @@ label:not(:first-child) {
 
 
 @media only screen and (max-width: 550px) {
+  .alert {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
   .container {
     padding: 0rem;
     width: 90%;
@@ -256,8 +276,14 @@ label:not(:first-child) {
 }
 
 @media only screen and (max-width: 450px) {
+
   html {
     font-size: 55%;
+  }
+
+  .alert {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .container {
     padding: 0rem;
